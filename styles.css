@@ -1,0 +1,41 @@
+body{
+    background-color: #f2f2f2;
+    
+}
+.encabezado{
+    color: #333333;
+    font-size: 2.5em;
+    text-align: center;
+}
+.navegacion{
+    display: flex;
+    background-color: #4CAF50;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.1em;
+
+}
+.navegacion li{
+    margin: 10px;
+}
+.navegacion li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    
+}
+.navegacion li a:hover{
+    color: #cae900;
+}
+.contenido{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.contenido img{
+    border-radius: 20px;
+}
+.contenido img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.64);
+}
